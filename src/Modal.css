@@ -1,0 +1,26 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.modal__body {
+    padding: 2rem;
+    width: 200px;
+    border-radius: 10px;
+    background: #fff;
+    height: 200px;
+}
+
+.changeBtn {
+    background: #228b00;
+    color: #fff;
+    border-radius: 10%;
+    border: none;
+}
